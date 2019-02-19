@@ -1,0 +1,9 @@
+paul allen,0
+kyle creek,1
+jeff bezos,0
+lucy buffiou,1
+shaq o'neil,1
+mark zuckerberg,0
+PaUl AllEn,0
+jEFf BeZoS,0
+KyLE CREek,1

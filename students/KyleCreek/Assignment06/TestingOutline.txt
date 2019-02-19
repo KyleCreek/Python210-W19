@@ -1,0 +1,44 @@
+- Assignment 06 Testing Outline
+
+	- Functions Being Tested:
+		- Check Donor
+		- Create Report
+		- Send Letters All Donors
+
+#--- CheckDonor Function --- #
+
+* Summary:
+
+The CheckDonor function is the most important piece of information to perform the "SendThankYouSingle" function of mailroom4.py. The CheckDonor Function takes in a string consisting of a Donor's Name and a database from which the name can be verified against. If the name IS in the dictionary, the string is returned properly formatted, and the dictionary database is NOT updated. If the name IS NOT in the dictionary, the string is returned properly formatted, and the dictionary databse IS updated to include the new donor name. 
+
+* Test Methodology:
+
+The TestCheckDonor function was written to ensure the functionality of the CheckDonor Function. This function requires a string representing a donor in the initial database, a database to compare it to, and an integer of expected difference. The expected difference represents the length of dictionary before and after the TestCheckDonor Function has been processed. 
+
+
+The function is provided a list containing text strings representing names and the expected difference in dictionary length. The TestCheckDonor creates (2) counters. The first counts the number of names in the initial dictionary prior to passing through the CheckDonor function. 
+
+Once the dictionary has been passed through the function, it should increase in length, or stay the same pending the strings that have been passed. The function then looks at the number of keys in the new dictionary finds the difference, subsequently comparing it to the expected difference. 
+
+If the expected difference matches the actual difference, the test passes. 
+
+TestCheckDonor.py takes a list of names and passes them through the TestCheckDonor Function and prints out results to hard drive. 
+
+Note: Names in the provided text list are intentionally mis-formatted to ensure the CheckDonor function will properly process the string of names. 
+
+
+# --- Create Report Function --- #
+
+* Summary
+
+The CreateReport Function of mailroom4 was written to print out the current Donor Dictionary Database to the screen. This function was re-factored to split the writing of the data to the presentation of the data. 
+
+* Test Methodology
+
+TestCreateReport.py was written to test the CreateReport Function. This python script takes a test file and passes names to the CreateReport Function. It then creates dictinoaries out of each of the provided names to simulate a donor. These list of donors are then passed through the CreateReport Function and the results are printed to a text file. 
+
+# --- Send Letters All Donors Function --- #
+
+* Summary
+
+* Test Methodology

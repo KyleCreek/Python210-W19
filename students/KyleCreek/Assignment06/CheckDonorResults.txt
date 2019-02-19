@@ -1,0 +1,11 @@
+Time of Test: 02-19-2019, 15:29:57
+          Test Input                   Test Result          
+          paul allen                       Pass             
+          kyle creek                       Pass             
+          jeff bezos                       Pass             
+         lucy buffiou                      Pass             
+         shaq o'neil                       Pass             
+       mark zuckerberg                     Pass             
+          PaUl AllEn                       Pass             
+          jEFf BeZoS                       Pass             
+          KyLE CREek                       Pass             
